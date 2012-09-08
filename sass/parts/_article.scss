@@ -10,12 +10,21 @@ article{
 		padding: 15px 0;
 	}
 	h1.title{
-		font-weight: 300;
+		font-weight: bold;
 		line-height: 35px;
 		margin-bottom: 20px;
+		font-size: 2.0em;
+		font-family: "gill sans","gill sans mt","gill sans mt pro","century gothic","HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
 		a{
 			color: $color-gray01;
 		}
+	}
+	h2 {
+		font-weight: bold;
+	}
+	h3, h4 {
+		font-weight: normal;
 	}
 	.entry-content{
 		line-height: 2;
