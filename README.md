@@ -10,13 +10,14 @@ This was cloned from [tommy351's project](https://github.com/tommy351/Octopress-
 - Changed font style for h1,h2,h3.. in article.
 - No bold h1 in /archives pages.
 - Optimized blockquote author and link footer margin and aligned right.
+- Change `pre`, `code` font-size smaller in mobile devices.
 
 ##Install
 
 Type the code below in terminal.
 
 	$ cd octopress
-	$ git clone git://github.com/kinopypo/Octopress-Theme-Slash.git .themes/slash
+	$ git clone git://github.com/kinopyo/Octopress-Theme-Slash.git .themes/slash
 	$ rake install['slash']
 	$ rake generate
 
