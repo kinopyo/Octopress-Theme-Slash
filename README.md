@@ -11,6 +11,7 @@ This was cloned from [tommy351's project](https://github.com/tommy351/Octopress-
 - No bold h1 in /archives pages.
 - Optimized blockquote author and link footer margin and aligned right.
 - Change `pre`, `code` font-size smaller in mobile devices.
+- Img tag with 'no_fancybox' class will not be open as fancybox gallery.
 
 ##Install
 

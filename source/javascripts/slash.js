@@ -25,7 +25,11 @@
 					$(this).after('<span class="caption">'+alt+'</span>');
 				}
 
-				$(this).wrap('<a href="'+this.src+'" title="'+alt+'" class="fancybox" rel="gallery'+_i+'" />');
+				// img tag with 'no_fancybox' class will not be open as fancybox gallery
+				// usecase: if you use any affliate image, such as amazon.
+				if (!$(this).hasClass('no_fancybox')) {
+					$(this).wrap('<a href="'+this.src+'" title="'+alt+'" class="fancybox" rel="gallery'+_i+'" />');
+				}
 			});
 		});
 	};
